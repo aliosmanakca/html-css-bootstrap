@@ -1,0 +1,18 @@
+.kutu {
+  background-color: salmon;
+  text-align: right;
+}
+.kutu b {
+  background-color: slateblue;
+}
+
+.kutu2 {
+  background-color: salmon;
+  margin-top: 10px;
+}
+.kutu2 p {
+  background-color: slateblue;
+  width: 150px;
+  margin: auto;
+  text-align: center;
+}

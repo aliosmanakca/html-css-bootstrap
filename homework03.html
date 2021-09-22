@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        background-color: rgb(255, 255, 255);
+        width: 20cm;
+        height: 10cm;
+      }
+      table tr {
+        background-color: rgb(252, 255, 249);
+      }
+      #hobiler {
+        float: left;
+      }
+      #liste {
+        text-align: left;
+        float: left;
+      }
+      #buton {
+        width: 3cm;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="">Adı</label></td>
+          <td><input type="text" /></td>
+          <td></td>
+          <td colspan="2">
+            <span id="hobiler">Hobiler &emsp;</span>
+            <span id="liste">
+              <input type="checkbox" />
+              <label for="">Futbol</label>
+              <br />
+              <input type="checkbox" />
+              <label for="">Basketbol</label>
+              <br />
+              <input type="checkbox" />
+              <label for="">Voleybol</label>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Soyadı</label></td>
+          <td><input type="text" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Cinsiyet</td>
+          <td>
+            <input type="radio" name="cinsiyet" />
+            <label for="">erkek</label>
+            <input type="radio" name="cinsiyet" />
+            <label for="">bayan</label>
+          </td>
+          <td></td>
+          <td>Profil fotoğrafı &emsp;</td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td>İl</td>
+          <td>
+            <select name="" id="">
+              <option value="1">Adana</option>
+              <option value="2">Adıyaman</option>
+              <option value="4">Ankara</option>
+            </select>
+          </td>
+          <td></td>
+          <td>Doğum Tarihi</td>
+          <td><input type="date" /></td>
+        </tr>
+        <tr>
+          <td>Eposta</td>
+          <td><input type="text" /></td>
+          <td></td>
+          <td>Adres</td>
+          <td rowspan="2">
+            <textarea name="" id="" cols="25" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Kişisel site</td>
+          <td><input type="text" /></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Telefon</td>
+          <td><input type="text" /></td>
+          <td>&emsp;&emsp;</td>
+          <td></td>
+          <td>
+            <input type="button" value="kayıt ol" size="7px" id="buton" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

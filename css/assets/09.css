@@ -1,0 +1,21 @@
+.menu {
+  width: 300px;
+}
+.menu .buton {
+  background-color: rgb(103, 187, 187);
+  text-align: center;
+  padding: 5px;
+}
+.menu ul {
+  list-style: none;
+  padding: 5px;
+  border: 1px solid rgb(201, 111, 111);
+  margin: 0;
+  display: none;
+}
+.menu:hover ul {
+  display: block;
+}
+.menu li:hover {
+  background-color: salmon;
+}

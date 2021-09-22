@@ -1,0 +1,16 @@
+.menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  background-color: aquamarine;
+  color: black;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.menu a:hover {
+  background-color: rgb(216, 148, 60);
+  color: cornsilk;
+}

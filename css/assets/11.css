@@ -1,0 +1,21 @@
+body {
+  background-image: url(../../resim-video-islemleri/img/more-leaves.png);
+}
+.arkaplan {
+  width: 100%;
+  height: 300px;
+  background-image: url(../../resim-video-islemleri/img/right-arrow.png);
+  border: 2px solid red;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.arkaplan2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../../resim-video-islemleri/img/bisiklet.jpg);
+  border: 2px solid red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
