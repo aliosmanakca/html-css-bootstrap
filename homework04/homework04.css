@@ -1,0 +1,44 @@
+table {
+  width: 15cm;
+  height: 7cm;
+  background-color: white;
+}
+table tr {
+  background-color: rgb(223, 215, 215);
+}
+thead tr,
+tfoot tr {
+  background-color: rgb(102, 98, 98);
+  color: white;
+}
+.toplam {
+  text-align: right;
+  padding-right: 40px;
+}
+.semboller i {
+  text-align: center;
+  width: 1cm;
+}
+.enalt {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6.4cm;
+}
+.devam {
+  text-align: center;
+  width: 4cm;
+  height: 0.7cm;
+  border: 1px solid rgb(15, 14, 14);
+  background-color: rgb(204, 108, 156);
+  text-decoration: none;
+}
+.gec {
+  text-align: center;
+  width: 4cm;
+  height: 0.7cm;
+  border: 1px solid rgb(3, 3, 7);
+  background-color: rgb(118, 184, 206);
+  margin-left: 0.5cm;
+  text-decoration: none;
+}

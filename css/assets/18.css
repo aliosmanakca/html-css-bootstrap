@@ -1,0 +1,27 @@
+.kutu {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(103, 197, 103);
+  border: red 2px solid;
+}
+.kutu9 {
+  /*eğer kutu9 u kutuların içine yazarsan 
+  position olmamalı ve margin sağa göre ayarlanmalı*/
+  width: 50px;
+  height: 70px;
+  background-color: rgb(103, 197, 103);
+  border: red 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: absolute;
+  padding-left: 30px;
+  margin-left: 0px;
+}
+.kutular {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}

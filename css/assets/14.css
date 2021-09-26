@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.ust-menu {
+  background-color: gray;
+}
+
+.header {
+  background-color: rgb(197, 197, 197);
+  position: sticky;
+  top: 0; /* position sticky kullanınca top vermen lazım */
+}
+
+.header div,
+.ust-menu div {
+  display: inline-block;
+  width: 49%;
+  padding: 3px;
+  color: white;
+}
+
+.header .menu,
+.ust-sag-menu {
+  text-align: right;
+}
+
+.ust-menu a {
+  color: white;
+  text-decoration: none;
+}

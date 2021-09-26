@@ -1,0 +1,18 @@
+.text-box {
+  display: inline-block;
+  position: relative;
+  padding-right: 0px;
+}
+/* absolute, relative'e göre pozisyon alır
+relative parent olmalı*/
+.text-box .fa-search {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+
+.text-box input {
+  padding-right: 30px;
+  border: 1px solid red;
+  border-radius: 20px;
+}
